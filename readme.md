@@ -39,9 +39,9 @@ Population ageing, which entails an increasing share of elderly persons in a pop
   1. ## <a name="_toc152713607"></a><a name="_toc152813978"></a>**Population ageing in India**
 India, with approximately 1.36 billion inhabitants in 2019, is anticipated to become the world's most populous country in the next six years. In 2011, individuals aged 60 and above constituted 8.6% of the population, numbering 103 million. Projections indicate a rise to 19.5% (319 million) by 2050. Considering the pre-retirement phase, those aged 45 and above will surpass 40% of the population, reaching 655 million by 2050. Factors such as declining fertility and increased life expectancy contribute to these trends, signaling potential challenges like heightened old-age dependency and economic implications, yet comprehensive insights into these aspects remain limited.
 
-![](images\Aspose.Words.98bc25d7-bb44-48d8-93d1-4944aaa6d2b9.007.png)
+![](images/007.png)
 
-<a name="_toc152816987"></a><a name="_toc152817954"></a>*Figure 21Trends in crude birth and death rate, India, 1950-2050*
+<a name="_toc152816987"></a><a name="_toc152817954"></a>*Figure 2-1Trends in crude birth and death rate, India, 1950-2050*
 
 India's population distribution trends reveal a decline in the child population to 18.5% by 2050 from 37.5% in 1950. The working-age group (15-59 years) is expected to increase from 58.4% in 2000 to 62% by 2050. The median age will rise from 21.3 in 1950 to 38.1 in 2050, reflecting demographic transition. Additionally, the crude birth rate is projected to decrease from 20.4 in 2011 to 11.8 by 2050, while the crude death rate is expected to increase from 6.3 in 2017 to 7.3 in 2020.
 
@@ -58,9 +58,9 @@ India experiences unprecedented demographic shifts, with rising longevity and de
 
 The elderly population is not a homogenous group, especially in a diverse society like India. The concerns of the young-old and oldest-old vary considerably in terms of financial security, functional incompetency, loneliness, and social and work participation. This pronounced diversity calls for a comprehensive understanding of various age cohorts within the elderly population so that appropriate measures and policies are formed well in time.
 
-![](images\Aspose.Words.98bc25d7-bb44-48d8-93d1-4944aaa6d2b9.008.png)
+![](images/008.png)
 
-<a name="_toc152816988"></a><a name="_toc152817955"></a>*Figure 22 Life expectancy and Fertility rate, India, 1950-2050*
+<a name="_toc152816988"></a><a name="_toc152817955"></a>*Figure 2-2 Life expectancy and Fertility rate, India, 1950-2050*
 
 
 1. ## <a name="_toc152813980"></a>**Challenges and Impacts of an Ageing Workforce**
@@ -166,17 +166,17 @@ K-Means Clustering is an unsupervised learning algorithm that is used to solve t
 - It is a centroid-based algorithm, where each cluster is associated with a centroid. The main aim of this algorithm is to minimize the sum of distances between the data point and their corresponding clusters
 - The algorithm takes the unlabeled dataset as input, divides the dataset into k-number of clusters, and repeats the process until it does not find the best clusters. The value of k should be predetermined in this algorithm.
 
-![](images\Aspose.Words.98bc25d7-bb44-48d8-93d1-4944aaa6d2b9.009.jpeg)
+![](images/09.jpeg)
 
-<a name="_toc152816989"></a><a name="_toc152817956"></a>*Figure 41 Vector representation of all skills*
+<a name="_toc152816989"></a><a name="_toc152817956"></a>*Figure 4-1 Vector representation of all skills*
 
-![](images\Aspose.Words.98bc25d7-bb44-48d8-93d1-4944aaa6d2b9.010.png)
+![](images/010.png)
 
-<a name="_toc152816990"></a><a name="_toc152817957"></a>*Figure 42 Vector representation of all skills*
+<a name="_toc152816990"></a><a name="_toc152817957"></a>*Figure 4-2 Vector representation of all skills*
 
-![](images\Aspose.Words.98bc25d7-bb44-48d8-93d1-4944aaa6d2b9.011.jpeg)
+![](images/11.jpeg)
 
-<a name="_toc152816991"></a><a name="_toc152817958"></a>*Figure 43 Representation of all job clusters*
+<a name="_toc152816991"></a><a name="_toc152817958"></a>*Figure 4-3 Representation of all job clusters*
 
 `	`The job titles were subjected to clustering based on their associated skills, employing the K-Means algorithm to discern patterns within the dataset. After a careful analysis, the optimal number of clusters was determined to be 8. This strategic clustering not only categorizes jobs but also groups them in a manner that reflects the similarities in the required skill sets.
 
@@ -194,15 +194,15 @@ The utilization of the K-Means algorithm in clustering job titles provides a sys
 
 **Dynamically Calculated Job Suitability Based on Age**: Implemented dynamic calculations to assess the suitability of a job for an individual based on their age. This feature provided personalized recommendations by considering age as a determining factor in job compatibility within the model. 
 
-![](images\Aspose.Words.98bc25d7-bb44-48d8-93d1-4944aaa6d2b9.012.png)
+![](images/012.png)
 
 **User Interface for Model Interaction**: Developed a user-friendly interface to facilitate user interaction with the model. The interface allowed users to input parameters, visualize clustering results, and obtain personalized recommendations based on the model's calculations. 
 
 **Quantization of Generative AI Model (4-bit Quantization)**: Quantized a generative AI model to operate on personal laptops efficiently. The model was adapted using 4-bit quantization, resulting in a reduction in accuracy. However, this trade-off made development more accessible and cost-effective, enabling deployment on resource constrained devices.
 
-![](images\Aspose.Words.98bc25d7-bb44-48d8-93d1-4944aaa6d2b9.013.jpeg)
+![](images/13.jpeg)
 
-<a name="_toc152816992"></a><a name="_toc152817959"></a>*Figure 44  Sample API call*
+<a name="_toc152816992"></a><a name="_toc152817959"></a>*Figure 4-4  Sample API call*
 
 Upon receiving the user's current job and age, our system initiates a process to optimize job recommendations. First, we identify the cluster associated with the user's current job, categorizing similar roles based on skills and characteristics. Subsequently, we retrieve all jobs within this cluster. To enhance user experience, we sort these jobs based on relative productivity at the given age, prioritizing roles where individuals of a similar age have demonstrated higher productivity. The sorted list is then presented to the user, offering tailored job suggestions aligned with their skills and age-related productivity trends. This approach aims to assist users in exploring potentially more suitable and productive career opportunities.
 
