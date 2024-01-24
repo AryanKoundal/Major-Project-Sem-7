@@ -1,4 +1,4 @@
-[embed]https://drive.google.com/file/d/1i_CgV0TeebKBUHpHp6CrLS2CtvsoLUa6/view?usp=drive_link[/embed]
+[embed]https://github.com/AryanKoundal/Major-Project-Sem-7/blob/main/Major%20Project%20Report.pdf[/embed]
 
 # Work participation, productivity, and mental and physical health outcomes among the elderly in India
 
